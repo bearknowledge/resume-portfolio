@@ -1231,7 +1231,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
-			margin-top: 3.5rem;
+			margin-top: 4rem;
 		}
 
 			#header > *:before {
@@ -1283,8 +1283,8 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				padding: 3rem 2rem;
-				max-height: 40rem;
+				padding: 2rem ;
+				max-height: 20rem;
 				overflow: hidden;
         background: transparent;
 			}
@@ -1613,9 +1613,8 @@ input, select, textarea {
   -webkit-box-align: center;
   align-items: center;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0;
-  transform: translateY(-10px);
+  margin-bottom: -4rem;
+  transform: translateY(-30px);
  
 }
 
@@ -1627,7 +1626,7 @@ input, select, textarea {
   height: 137.5px;
   margin: 65.4px 12.5px 25px;
   position: relative;
-  padding: 0.5em;
+  padding: .5rem;
   text-align: center;
   z-index: 1;
   box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.1);

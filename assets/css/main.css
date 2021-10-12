@@ -1397,7 +1397,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 375px) {
+		@media screen and (max-width: 480px) {
 
 			#header {
 				padding: 1.5rem 0;
@@ -1419,7 +1419,6 @@ input, select, textarea {
 					#header nav ul li {
 						border-left: 0;
 						border-top: solid 1px #ffffff;
-            height: 100%;
 					}
 
 						#header nav ul li:first-child {

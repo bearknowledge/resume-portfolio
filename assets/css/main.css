@@ -646,8 +646,6 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -844,14 +842,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			ul.actions:not(.fixed) {
-				-moz-flex-direction: column;
-				-webkit-flex-direction: column;
-				-ms-flex-direction: column;
-				flex-direction: column;
-				margin-left: 0;
-				width: 100% !important;
-			}
+
 
 				ul.actions:not(.fixed) li {
 					-moz-flex-grow: 1;
@@ -1180,7 +1171,8 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				padding: 3rem 2rem;
+				padding: 2rem;
+        margin-bottom:;
 			}
 
 		}
@@ -1188,7 +1180,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#wrapper {
-				padding: 2rem 1rem;
+				padding: 1rem 1rem;
 			}
 
 		}
@@ -1613,7 +1605,7 @@ input, select, textarea {
   -webkit-box-align: center;
   align-items: center;
   max-width: 1200px;
-  margin-bottom: -4rem;
+  margin-bottom: -rem;
   transform: translateY(-30px);
  
 }
@@ -1719,6 +1711,13 @@ input, select, textarea {
 }
 
 /****** Responsive *******/
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+  /* CSS */
+  .honeycomb-cell
+  {
+margin: 40px 12px;
+  }
+}
 
 @media (max-width: 550px) 
 {

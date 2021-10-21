@@ -87,6 +87,7 @@ z-index: -1;
       
       .section span {
         padding-top: 50px;
+        margin-bottom: 20px;
       }
       .section h3 {
         padding-left: 30px;
@@ -201,6 +202,7 @@ z-index: -1;
       
       .section span {
         padding-top: 50px;
+        margin-bottom: 20px;
       }
       .section h3 {
         padding-left: 30px;
@@ -304,6 +306,7 @@ z-index: -1;
         height: 1000px;
         width:100vw;
         color: white;
+        margin-bottom: 20px;
       }
       
       
@@ -313,6 +316,7 @@ z-index: -1;
       } 
       .section a {
         color: white;
+        margin-bottom: 20px;
       }
       
       .section span {
@@ -341,7 +345,6 @@ z-index: -1;
         display:flex;
         flex-direction: row;
         justify-content: center;
-        margin: 30px;
       }
         #moon {
           width: 25%;
@@ -414,7 +417,7 @@ z-index: -1;
         text-decoration: none;
         letter-spacing: 3px;
       }
-      .section {
+  .section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -424,17 +427,18 @@ z-index: -1;
   color: white;
 }
 
-
 .section p {
   padding-left: 60px;
   padding-right: 60px;
 } 
 .section a {
   color: white;
+  margin-bottom: 20px;
 }
 
 .section span {
   padding-top: 50px;
+  margin-bottom: 20px;
 }
 .section h3 {
   padding-left: 30px;
